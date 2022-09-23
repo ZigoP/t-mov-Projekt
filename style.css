@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background-color: bisque;
+}
+#navTitle{
+    display: flex;
+    position: relative;
+    left: 2%;
+}
+#navElements{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    left: 75%;
+}
+p,li{
+    font-size: 20px;
+}
+#navElements>p:hover{
+    transform: scale(1.2);
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0;
+    gap: 20px;
+    width: 75%;
+}
+#mainTitle{
+    font-size: 40px;
+}
+#projectTitle{
+    font-size: 25px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+#houseIcon{
+    width: 35px;
+    height: 35px;
+    padding: 10px;
+}
+#houseIcon:hover{
+    transform: scale(1.2);
+
+}
+#zadanieDesc{
+    text-align: start;
+}
+#zadanieDesc>p,#zadanieDesc>ol>li>p,#zadanieDesc>ul>li>p{
+
+}
+.siteTitle{
+    font-weight: bolder;
+    font-size: 35px;
+}
+.sideTitle{
+    font-weight: bolder;
+    font-size: 22px;
+}
+#navTitle>p,#navElements>p{
+    font-weight: bold;
+}
+#rozvrh{
+    width: 100%;
+}
+#mainImage{
+    width: 30%;
+}
+footer {
+    background-color: bisque;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
